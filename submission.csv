@@ -1,0 +1,101 @@
+candidate_id,rank,score,reasoning
+CAND_0000165,1,84.0287,Meets operational filters. Proven production experience with qdrant.
+CAND_0000388,2,83.9759,Meets operational filters. Proven production experience with faiss.
+CAND_0000322,3,83.1516,Meets operational filters. Proven production experience with pinecone.
+CAND_0000074,4,82.6265,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000906,5,82.2256,Meets operational filters. Proven production experience with pinecone.
+CAND_0000989,6,81.8815,Meets operational filters. Proven production experience with pinecone.
+CAND_0000738,7,81.6711,Meets operational filters. Proven production experience with faiss.
+CAND_0000932,8,81.156,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000671,9,81.1349,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000121,10,80.4957,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000921,11,80.4282,Meets operational filters. Proven production experience with faiss.
+CAND_0000967,12,80.3818,Meets operational filters. Proven production experience with faiss.
+CAND_0000739,13,79.624,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000847,14,79.5523,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000862,15,79.3932,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000770,16,79.347,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000541,17,79.2742,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000211,18,79.1921,Meets operational filters. Proven production experience with faiss.
+CAND_0000683,19,79.1754,Meets operational filters. Proven production experience with pinecone.
+CAND_0000083,20,79.1613,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000576,21,78.5732,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000839,22,78.4702,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000399,23,78.4513,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000828,24,77.6698,Meets operational filters. Proven production experience with faiss.
+CAND_0000097,25,77.3351,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000344,26,77.2705,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000803,27,77.2422,Meets operational filters. Proven production experience with pinecone.
+CAND_0000330,28,76.3854,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000120,29,76.3532,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000699,30,75.6354,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000534,31,71.5154,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000190,32,70.1544,Meets operational filters. Proven production experience with qdrant.
+CAND_0000198,33,69.9333,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000623,34,69.8734,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000691,35,69.7282,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000249,36,69.5738,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000870,37,69.4303,Meets operational filters. Proven production experience with weaviate.
+CAND_0000927,38,69.3004,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000201,39,69.1184,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000466,40,69.0577,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000031,41,68.601,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000389,42,68.4406,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000200,43,68.2917,Meets operational filters. Proven production experience with faiss.
+CAND_0000410,44,68.1851,Meets operational filters. Proven production experience with faiss.
+CAND_0000742,45,68.0535,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000421,46,67.8095,Meets operational filters. Proven production experience with pinecone.
+CAND_0000899,47,67.518,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0001009,48,67.0334,Meets operational filters. Proven production experience with faiss.
+CAND_0000361,49,67.0313,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000203,50,67.0102,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000256,51,66.9951,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000552,52,66.8282,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000971,53,66.8078,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000021,54,66.8012,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000815,55,66.7246,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000664,56,66.7004,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000440,57,66.693,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000821,58,66.5626,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000980,59,66.5225,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000274,60,66.4625,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000540,61,66.4593,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000133,62,66.278,Meets operational filters. Proven production experience with pinecone.
+CAND_0000915,63,66.0663,Meets operational filters. Proven production experience with faiss.
+CAND_0000088,64,65.6674,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000854,65,65.3603,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000312,66,65.0705,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000457,67,64.9507,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000875,68,64.4812,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000987,69,64.2169,Meets operational filters. Proven production experience with faiss.
+CAND_0000505,70,64.2058,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000277,71,64.0564,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0001011,72,63.9077,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000027,73,63.521,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000581,74,62.8968,Meets operational filters. Proven production experience with pinecone.
+CAND_0000874,75,53.0675,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000981,76,52.8638,"Meets operational filters. Proven production experience with pinecone, opensearch."
+CAND_0000937,77,52.8009,Meets operational filters. Proven production experience with pinecone.
+CAND_0000408,78,52.7371,Meets operational filters. Proven production experience with faiss.
+CAND_0000082,79,52.6876,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000705,80,52.0532,Meets operational filters. Proven production experience with elasticsearch.
+CAND_0000032,81,52.0463,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000845,82,52.0411,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000227,83,52.0063,"Meets operational filters. Proven production experience with qdrant, elasticsearch."
+CAND_0000184,84,51.9908,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000704,85,51.9883,Meets operational filters. Proven production experience with elasticsearch.
+CAND_0000056,86,51.859,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000969,87,51.8441,"Meets operational filters. Proven production experience with pinecone, elasticsearch."
+CAND_0000206,88,51.8118,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000665,89,51.7764,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000666,90,51.6307,Meets operational filters. Proven production experience with weaviate.
+CAND_0000722,91,51.63,"Meets operational filters. Proven production experience with pinecone, faiss."
+CAND_0000628,92,51.5457,Meets operational filters. Proven production experience with qdrant.
+CAND_0000970,93,51.4907,Meets operational filters. Proven production experience with faiss.
+CAND_0000345,94,51.4628,"Meets operational filters. Proven production experience with qdrant, faiss."
+CAND_0000273,95,51.439,Meets operational filters. Proven production experience with qdrant.
+CAND_0000820,96,51.3751,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000210,97,51.3632,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000973,98,51.3487,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
+CAND_0000015,99,51.3464,Meets operational filters. Proven production experience with qdrant.
+CAND_0000487,100,51.3429,Meets operational filters. Strong semantic alignment with modern retrieval architectures.
