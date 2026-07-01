@@ -1,6 +1,5 @@
 import json
 import csv
-import re
 from sentence_transformers import SentenceTransformer, util
 from rank_bm25 import BM25Okapi
 
@@ -77,13 +76,11 @@ def evaluate_candidate(candidate):
     reasoning = " ".join(reason_chunks) if reason_chunks else "Meets operational filters."
     
     # --- FIXED SEARCH TEXT EXTRACTION ---
-    # Combine titles, skills, and descriptions to ensure we never have empty text!
     titles_str = " ".join([str(exp.get("title", "")) for exp in experience])
     desc_str = " ".join([str(exp.get("description", "")) for exp in experience])
     skills_str = " ".join(skills)
     full_search_text = f"{titles_str} {skills_str} {desc_str}".strip()
     
-    # Absolute failsafe: if somehow totally empty, give it a placeholder so math doesn't crash
     if not full_search_text:
         full_search_text = "software engineer candidate"
         
@@ -116,7 +113,6 @@ def run_ranking_pipeline(input_path, output_path):
     corpus = [cand["experience_text"] for cand in eligible_candidates]
     tokenized_corpus = [doc.lower().split() for doc in corpus]
     
-    # Failsafe for zero division
     if not tokenized_corpus or all(len(doc) == 0 for doc in tokenized_corpus):
          tokenized_corpus = [["engineer"]] * len(eligible_candidates)
          
@@ -125,20 +121,23 @@ def run_ranking_pipeline(input_path, output_path):
     max_bm25 = max(bm25_scores) if max(bm25_scores) > 0 else 1
     
     print("Stage 3: Running Dense Semantic Math & Fusing Scores...")
+    # FIX: Batch encode all eligible candidates at once for massive speedup
+    corpus_embeddings = model.encode(corpus, convert_to_tensor=True)
+    semantic_scores = util.cos_sim(corpus_embeddings, jd_embedding)
+    
     final_ranked_list = []
     
     for idx, cand in enumerate(eligible_candidates):
-        # 1. Semantic Score (BGE Model)
-        cand_embedding = model.encode(cand["experience_text"], convert_to_tensor=True)
-        semantic_similarity = util.cos_sim(cand_embedding, jd_embedding).item()
+        # Retrieve the batched semantic score
+        semantic_similarity = semantic_scores[idx][0].item()
         
-        # 2. Lexical Score (BM25 Normalized)
+        # Lexical Score (BM25 Normalized)
         lexical_score = bm25_scores[idx] / max_bm25
         
-        # 3. True Hybrid Formula (30% Structural, 30% Lexical, 40% Semantic)
+        # True Hybrid Formula (30% Structural, 30% Lexical, 40% Semantic)
         hybrid_score = (cand["struct_score"] * 0.3) + (lexical_score * 100 * 0.3) + (semantic_similarity * 100 * 0.4)
         
-        # 4. Dynamic Evidence Extraction
+        # Dynamic Evidence Extraction
         exp_lower = cand["experience_text"].lower()
         found_tech = [tech for tech in TECH_SIGNALS if tech in exp_lower]
         
